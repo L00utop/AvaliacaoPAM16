@@ -1,3 +1,4 @@
+//Feito por: Gabriel Felipe e Miguel Pedro
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, Image , View } from 'react-native';
 
@@ -13,7 +14,6 @@ export default function App() {
     <Text style={styles.titulo}>Lua</Text>
     <Text style={styles.texto}>A lua é o satélite natural do <Text style={styles.especial}>planeta Terra</Text>, distanciados por aproximadamente 384.405km.</Text>
     </View>
-    <Text style={styles.assinatura}>Feito por: Gabriel Felipe, Miguel Pedro</Text>
     </View>
   );
 }
@@ -59,12 +59,5 @@ const styles = StyleSheet.create({
   especial: {
     fontStyle: 'italic',
     fontWeight: 'bold'
-  },
-  
-  assinatura: {
-    color: '#fff',
-    fontSize: 20,
-    fontStyle: 'italic',
-    padding: 30
   }
 });
